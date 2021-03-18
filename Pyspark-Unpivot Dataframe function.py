@@ -41,7 +41,7 @@ def unpivotDataframe(df, idColName: str = "Col0", colsToPivot: list = [], attrib
     colName = colName.strip("-")
     colName = colName.replace("_","")
     colName = colName.replace(" ","_")
-    colName = colName.replace("\.", "")
+    colName = colName.replace(".", "")
     colName = colName.replace(",", "")
     colName = colName.replace("?","")
     colName = colName.replace("-","")
